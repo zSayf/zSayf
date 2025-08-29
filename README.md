@@ -1,16 +1,17 @@
-
 <!-- Header Image -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/Assets/Header.png" alt="Seif Mohamed's Header"/>
+  <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/Assests/Header.png" alt="Seif Elsayed's Header"/>
 </p>
 
 I'm a passionate engineer who loves building innovative tech solutions that merge hardware and software.
 
-**Connect with me:**
-
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/seif-elsayed)](https://www.linkedin.com/in/seif-elsayed)
-[![Gmail Badge](https://img.shields.io/badge/-Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white&link=mailto:your.email@example.com)](mailto:your.email@example.com)
-[![GitHub Badge](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=GitHub&logoColor=white&link=https://github.com/zSayf)](https://github.com/zSayf)
+<!-- Centered and professional LinkedIn Badge -->
+<p align="center">
+  <strong>Connect with me:</strong><br><br>
+  <a href="https://www.linkedin.com/in/seif-elsayed" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-blue?style=for-the-badge&logo=Linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</p>
 
 ---
 
@@ -95,7 +96,7 @@ graph LR
 ### ✨ Featured Projects:
 *   [**𝐒𝐡𝐢𝐞𝐥𝐝: 𝐀𝐧 𝐑𝐞𝐚𝐥-𝐭𝐢𝐦𝐞 𝐀𝐈-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐍𝐨𝐧-𝐋𝐞𝐭𝐡𝐚𝐥 𝐃𝐞𝐟𝐞𝐧𝐬𝐞 𝐒𝐲𝐬𝐭𝐞𝐦**](https://www.linkedin.com/posts/seif-elsayed_graduationproject-ai-robotics-activity-7351456699083276288-WJs5)
     *   🏆 **Awarded 2nd Place (#2)** nationwide among 582 projects in the Egyptian Universities & Institutes Competition.
-    *   An integrated defense system using AI and embedded systems for non-lethal, real-time threat response. [See competition highlights](https://www.linkedin.com/posts/seif-elsayed_aeyaeraepaejabraepaedaefaeuaepaehaey-aelaeuaegaetaerabraelaetaeuaeyaer-activity-7364098800912625665-TX7R).
+    *   An integrated defense system using AI and embedded systems for non-lethal, real-time threat response. [See competition highlights](https://www.linkedin.com/posts/seif-elsayed_aeyaeraepaejabraepaedaefaeuaepaehaey-aelaeuaegaetaerabraelaetaeuaeyaer-activity-7364089800912625665-TX7R).
 
 *   [**𝐒𝐡𝐚𝐫𝐤𝐁𝐚𝐢𝐭**](https://www.linkedin.com/posts/seif-elsayed_graduationproject-rov-activity-7352497326470365184-i7MA)
     *   A custom-built Remotely Operated Vehicle (ROV) designed for underwater exploration and data collection tasks.
@@ -115,8 +116,8 @@ graph LR
 
 ---
 
-<!-- Snake animation -->
-<p align="center">
+<!-- Snake animation with a cool title -->
+<div align="center">
+  <h4>My GitHub Activity Snake 🐍</h4>
   <img src="https://raw.githubusercontent.com/zSayf/zSayf/output/github-contribution-grid-snake.svg" alt="Seif's contribution snake animation">
-</p>
-```
+</div>
