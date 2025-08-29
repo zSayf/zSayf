@@ -1,69 +1,33 @@
 name: Generate Snake Animation
+
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
+
 jobs:
   build:
     permissions:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
-
-      - name: Generate Snake Animations
-        uses: Platane/snk@v3
+      - uses: actions/checkout@v3
+      
+      - uses: Platane/snk@v3
         with:
           github_user_name: zSayf
           outputs: |
-            dist/snake.svg
-            dist/snake-dark.svg?palette=github-dark&color_snake=#4F8BFF,#A27BFF&color_dots=#2D333B,#39424E,#4F8BFF,#A27BFF
-            dist/snake-rainbow.svg?palette=github-dark&color_snake=#FF0000,#FF7F00,#FFFF00,#00FF00,#0000FF,#4B0082,#9400D3&color_dots=#2D333B,#39424E,#4F8BFF,#A27BFF
-            dist/snake-ocean.svg?palette=github-dark&color_snake=#006994,#00a8cc&color_dots=#e6f7ff,#99d6ff,#4da6ff,#0066cc
-            dist/snake-forest.svg?palette=github-dark&color_snake=#2E8B57,#3CB371&color_dots=#0B3D0B,#1F5F1F,#338033,#47A047
-
-      - name: Create Profile README
-        run: |
-          # Create or update README with snake animations
-          cat > README.md << 'EOF'
-          # 🐍 Contribution Snake Animations 🐍
-          
-          <div align="center">
-            <table>
-              <tr>
-                <td><img src="dist/snake.svg" alt="Light Snake"></td>
-                <td><img src="dist/snake-dark.svg" alt="Dark Snake"></td>
-              </tr>
-              <tr>
-                <td><img src="dist/snake-rainbow.svg" alt="Rainbow Snake"></td>
-                <td><img src="dist/snake-ocean.svg" alt="Ocean Snake"></td>
-              </tr>
-              <tr>
-                <td colspan="2" align="center"><img src="dist/snake-forest.svg" alt="Forest Snake"></td>
-              </tr>
-            </table>
-          </div>
-          
-          <div align="center">
-            <i>Automatically updated every day at midnight UTC</i>
-          </div>
-          
-          <!-- START SNAKE SECTION -->
-          <!-- END SNAKE SECTION -->
-          EOF
-
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#4F8BFF,#A27BFF&color_dots=#2D333B,#39424E,#4F8BFF,#A27BFF
+      
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add dist
-          git add README.md
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "🐍 Update snake animations $(date '+%Y-%m-%d')"
-          git push origin HEAD:${{ github.ref_name }}
+          git commit -m "Generate Snake animation"
+          git push
