@@ -1,13 +1,9 @@
-name: Generate Snake Animation
+name: Generate Contribution Ocean Animation
 
 on:
   schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
-
-concurrency:
-  group: snake-output
-  cancel-in-progress: true
 
 jobs:
   build:
@@ -15,28 +11,24 @@ jobs:
       contents: write
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate snake
-        uses: Platane/snk@v3
+      - uses: actions/checkout@v3
+      
+      - uses: Platane/snk@v3
         with:
           github_user_name: zSayf
+          
+          # New animated ocean output!
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#4F8BFF,#A27BFF&color_dots=#2D333B,#39424E,#4F8BFF,#A27BFF
-
-      - name: Publish to output branch
+            dist/ocean.svg?palette=github-dark&color_snake=#4F8BFF,#A27BFF&color_dots=#2D333B,#39424E,#4F8BFF,#A27BFF
+      
+      - name: Commit and push changes
         run: |
-          set -e
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global --add safe.directory "$GITHUB_WORKSPACE"
-
-          git checkout -B output
           git add dist
           if git diff --staged --quiet; then
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "chore(snake): refresh assets [skip ci]"
-          git push -f origin output
+          git commit -m "Generate Contribution Ocean animation"
+          git push
