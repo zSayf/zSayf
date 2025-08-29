@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/Assests/Header.png" alt="Seif Elsayed's Header"/>
 </p>
 
-Passionate engineer who loves building innovative tech solutions that merge hardware and software.
+I'm a passionate engineer who loves building innovative tech solutions that merge hardware and software.
 
 <!-- Centered and professional LinkedIn Badge -->
 <p align="center">
@@ -108,8 +108,9 @@ graph LR
   
 ### 📊 My GitHub Activity:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zSayf&show_icons=true&theme=dark" alt="Seif's GitHub Stats" width="400">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zSayf&layout=compact&theme=dark" alt="Seif's Top Languages" width="400">
+  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api?username=zSayf&show_icons=true&theme=dark" alt="Seif's GitHub Stats" width="400">
+  </a>
 </p>
 
 </details>
