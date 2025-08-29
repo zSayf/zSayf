@@ -2,11 +2,11 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily at 00:00 UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 concurrency:
-  group: snake-${{ github.ref }}
+  group: snake-output
   cancel-in-progress: true
 
 jobs:
@@ -17,21 +17,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate snake (light + dark, SVG + GIF)
-        uses: Platane/snk@v3
+      - uses: Platane/snk@v3
         with:
           github_user_name: zSayf
           outputs: |
-            # Light (SVG/GIF) — refined blue/indigo gradient
-            dist/snake.svg?palette=github&color_snake=#4F8BFF,#A27BFF&color_dots=#EBEDF0,#C6D1E3,#A7B7D9,#4F8BFF
-            dist/snake.gif?palette=github&color_snake=#4F8BFF,#A27BFF&color_dots=#EBEDF0,#C6D1E3,#A7B7D9,#4F8BFF
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#4F8BFF,#A27BFF&color_dots=#2D333B,#39424E,#4F8BFF,#A27BFF
 
-            # Dark (SVG/GIF) — tuned for contrast on dark backgrounds
-            dist/snake-dark.svg?palette=github-dark&color_snake=#80B4FF,#C4A1FF&color_dots=#2D333B,#39424E,#4B5972,#A0B9FF
-            dist/snake-dark.gif?palette=github-dark&color_snake=#80B4FF,#C4A1FF&color_dots=#2D333B,#39424E,#4B5972,#A0B9FF
-
-      - name: Publish to output branch
+      - name: Push to output branch
         run: |
+          set -e
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git config --global --add safe.directory "$GITHUB_WORKSPACE"
@@ -42,5 +37,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
+
           git commit -m "chore(snake): refresh assets [skip ci]"
           git push -f origin output
