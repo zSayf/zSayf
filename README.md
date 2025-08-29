@@ -119,5 +119,5 @@ graph LR
 <!-- Snake animation with a cool title -->
 <div align="center">
   <h4>My GitHub Activity Snake 🐍</h4>
-  <img src="https://raw.githubusercontent.com/zSayf/zSayf/output/github-contribution-grid-snake.svg" alt="Seif's contribution snake animation">
+  <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/dist/github-contribution-grid-snake.svg" alt="Seif's contribution snake animation">
 </div>
