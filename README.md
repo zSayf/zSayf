@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/Assests/Header.png" alt="Seif Elsayed's Header"/>
 </p>
 
-I'm a passionate engineer who loves building innovative tech solutions that merge hardware and software.
+passionate engineer who loves building innovative tech solutions that merge hardware and software.
 
 <!-- Centered and professional LinkedIn Badge -->
 <p align="center">
