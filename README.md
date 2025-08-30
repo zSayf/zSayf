@@ -21,74 +21,116 @@ Passionate Electronics & Communications Engineer specializing in building award-
 ---
   
 ### ⚡ Tech Snapshot
-This graph outlines my core technical competencies across key engineering domains.
+This mindmap provides a detailed overview of my technical skills.
 
 ```mermaid
-graph LR
-    subgraph Core Competencies
-        A((( ))):::hidden --- E(Embedded Systems & Robotics)
-        A --- AI(AI & Computer Vision)
-        A --- S(Software Development)
-        A --- N(Networking & Communication)
-        A --- P(Project Management & Leadership)
-    end
+mindmap
+  root((My humble knowledge))
+    Embedded Systems & Robotics
+      Microcontrollers & Platforms
+        - (Raspberry Pi)
+        - (ESP32 
+        Dual-Core, Wi-Fi/BLE)
+        - (Arduino)
+      Hardware Integration & Prototyping
+        - (Sensor Suites)
+        - (Power Management)
+        - (Waterproofing, 
+        Custom Seals for ROVs)
+        - (Custom Component Design)
+      "Firmware Development C/C++"
+        - (FreeRTOS)
+        - (Wireless Protocols)
+        - (Low-Level Driver Development)
+      Advanced Motion Control
+        - (PID Tuning)
+        - (S-Curve/Trapezoidal Velocity Profiling)
+        - (Kinematic Modeling)
+    AI & Computer Vision
+      Real-Time Object Detection
+        - (YOLOv8/v11, 
+        Onnx Runtime, TensorRT Optimization)
+        - (Multi-Object Tracking)
+        - (Threat Detection Systems)
+      "Computer Vision OpenCV"
+        - (Image Preprocessing, 
+        Filtering, Thresholding, Morphology)
+        - (Geofencing & Spatial Analytics)
+        - (Anomaly Detection)
+      Edge AI Deployment
+        - (Raspberry Pi 5)
+        - (Model Quantization & Pruning)
+        - (Real-Time Inference Pipelines)
+      "LLM Interaction & Prompt Engineering"
+        - (ChatGPT API) 
+        - (Gemini API)
+        - (Agent-Based Automation)
+    Software Development
+      Programming Languages
+        - (Python)
+        - ("C/C++")
+        - (Kotlin)
+      Android Development
+        - (Jetpack Compose)
+        - (MVVM Architecture)
+        - (BLE Control Apps)
+        - (Firebase Integration)
+      "Backend & APIs"
+        - (RESTful API Design)
+        - (Database Management)
+    Networking & Communication
+      "Network Fundamentals CCNA"
+        - (Routing Protocols, 
+        OSPF, EIGRP)
+        - (IP Addressing, 
+        VLSM, CIDR, NAT)
+        - (VLAN 
+        Configuration & Trunking)
+      "Infrastructure Cisco IOS"
+        - (R/S CLI Configuration)
+        - (Network Automation)
+      Protocols
+        - (TCP/IP Stack)
+        - (UDP)
+        - (UART)
+      "Network Analysis & Security"
+        - (Wireshark)
+        - (Network Monitoring)
+        - (Basic Firewall Rules)
+    Project Management & Leadership
+      Agile Methodologies
+        - (Scrum)
+        - (Kanban)
+      Project Management Tools
+        - (Jira)
+        - (ClickUp)
+        - (Advanced Excel)
+      Technical Leadership
+        - (Cross-Functional Team Coordination)
+        - (Root Cause Analysis)
+        - (Mentorship)
+      Communication
+        - (Technical Documentation)
+        - (Stakeholder Reporting)
+    Soft Skills & Professional Attributes
+      Leadership & Collaboration
+        - (Team Leadership & Mentorship)
+        - (Agile Teamwork)
+      Analytical & Problem-Solving
+        - (Critical Thinking)
+        - (System-Level Troubleshooting)
+      Professionalism
+        - (Client Communication)
+        - (Time Management & Prioritization)
+        - (Adaptability & Continuous Learning)
+    Achievements
+      Awards
+        - (2nd Place/586, ITC-EGYPT ADC 2025)
+      Certifications
+        - (CCNA, ALX AiCE, Advanced Excel)
+      Leadership
+        - (Student Union & Enactus Roles)
 
-    subgraph Embedded Systems & Robotics
-        E --- E1(Platforms)
-        E1 --- E1_Desc["Raspberry Pi, ESP32, Arduino"]
-        E --- E2(Core Language)
-        E2 --- E2_Desc["C/C++ for Firmware"]
-        E --- E3(Skills)
-        E3 --- E3_Desc["Hardware Integration & Control"]
-        E --- E4(Algorithms)
-        E4 --- E4_Desc["Motion Control (PID, S-curve)"]
-    end
-    
-    subgraph AI & Computer Vision
-        AI --- AI1(Models)
-        AI1 --- AI1_Desc["YOLO (Object Detection & Tracking)"]
-        AI --- AI2(Libraries)
-        AI2 --- AI2_Desc["OpenCV for Image Processing"]
-        AI --- AI3(Deployment)
-        AI3 --- AI3_Desc["Edge AI on Embedded Devices"]
-        AI --- AI4(LLMs)
-        AI4 --- AI4_Desc["Prompt Engineering (ChatGPT, Gemini API)"]
-    end
-
-    subgraph Software Development
-        S --- S1(Core Languages)
-        S1 --- S1_Desc["Python, Kotlin, Java"]
-        S --- S2(Paradigms)
-        S2 --- S2_Desc["OOP, Multithreading"]
-        S --- S3(Android Stack)
-        S3 --- S3_Desc["MVVM, Jetpack Compose"]
-        S --- S4(APIs)
-        S4 --- S4_Desc["REST Integration"]
-    end
-
-    subgraph Networking & Communication
-        N --- N1(Foundation)
-        N1 --- N1_Desc["CCNA R&S Concepts"]
-        N --- N2(Hardware)
-        N2 --- N2_Desc["Cisco IOS (Routers & Switches)"]
-        N --- N3(Protocols)
-        N3 --- N3_Desc["TCP/IP, UDP, UART"]
-        N --- N4(Analysis)
-        N4 --- N4_Desc["VLANs, Subnetting, Wireshark"]
-    end
-
-    subgraph Project Management & Leadership
-        P --- P1(Methodology)
-        P1 --- P1_Desc["Agile Principles"]
-        P --- P2(Tools)
-        P2 --- P2_Desc["Jira, ClickUp, Trello"]
-        P --- P3(Skills)
-        P3 --- P3_Desc["Technical Leadership & Problem-Solving"]
-        P --- P4(Documentation)
-        P4 --- P4_Desc["Clear Technical Writing"]
-    end
-
-    classDef hidden fill:#222,stroke:#222,color:#222
 ```
   
 ---
