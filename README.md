@@ -3,7 +3,7 @@
   <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/Assests/Header.png" alt="Seif Elsayed's Header"/>
 </p>
 
-I'm a passionate engineer who loves building innovative tech solutions that merge hardware and software.
+Passionate Electronics & Communications Engineer specializing in building award-winning, intelligent systems that bridge the gap between hardware and software.
 
 <!-- Centered and professional LinkedIn Badge -->
 <p align="center">
@@ -16,7 +16,7 @@ I'm a passionate engineer who loves building innovative tech solutions that merg
 ---
 
 <details>
-<summary><h3>Want to know more about me? Click here to expand!</h3></summary>
+<summary><h3>Technical Deep Dive & GitHub Stats</h3></summary>
   
 ---
   
@@ -93,10 +93,12 @@ graph LR
   
 ---
   
-### ✨ Featured Projects:
+### ✨ Featured Projects
+
 *   <a href="https://www.linkedin.com/posts/seif-elsayed_graduationproject-ai-robotics-activity-7351456699083276288-WJs5" target="_blank">**𝐒𝐡𝐢𝐞𝐥𝐝: 𝐀𝐧 𝐑𝐞𝐚𝐥-𝐭𝐢𝐦𝐞 𝐀𝐈-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐍𝐨𝐧-𝐋𝐞𝐭𝐡𝐚𝐥 𝐃𝐞𝐟𝐞𝐧𝐬𝐞 𝐒𝐲𝐬𝐭𝐞𝐦**</a>
-    *   🏆 **Awarded 2nd Place (#2)** nationwide among 582 projects in the Egyptian Universities & Institutes Competition.
-    *   An integrated defense system using AI and embedded systems for non-lethal, real-time threat response. <a href="https://www.linkedin.com/posts/seif-elsayed_aeyaeraepaejabraepaedaefaeuaepaehaey-aelaeuaegaetaerabraelaetaeuaeyaer-activity-7364089800912625665-TX7R" target="_blank">See competition highlights</a>.
+    *   🏆 **Awarded 2nd Place (#2)** nationwide among 582 projects in the Egyptian Universities & Institutes Competition ([ITC EGYPT ADC 2025](https://www.facebook.com/itc2025adc)).
+    *   **Tech Stack:** `Python`, `YOLOv8`, `OpenCV`, `Raspberry Pi 5`, `ESP32`, `C++`, `Kotlin (Android)`.
+    *   An integrated defense system using AI... <a href="https://www.linkedin.com/posts/seif-elsayed_aeyaeraepaejabraepaedaefaeuaepaehaey-aelaeuaegaetaerabraelaetaeuaeyaer-activity-7364089800912625665-TX7R" target="_blank">See competition highlights</a>.
 
 *   <a href="https://www.linkedin.com/posts/seif-elsayed_graduationproject-rov-activity-7352497326470365184-i7MA" target="_blank">**𝐒𝐡𝐚𝐫𝐤𝐁𝐚𝐢𝐭**</a>
     *   A custom-built Remotely Operated Vehicle (ROV) designed for underwater exploration and data collection tasks.
