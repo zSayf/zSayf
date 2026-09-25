@@ -1,6 +1,6 @@
 <!-- Header Image -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/Assests/Header.png" alt="Seif Elsayed's Header"/>
+  <img src="assets/Header.png" alt="Seif Elsayed's Header"/>
 </p>
 
 Passionate Electronics & Communications Engineer specializing in building award-winning, intelligent systems that bridge the gap between hardware and software.
@@ -15,8 +15,40 @@ Passionate Electronics & Communications Engineer specializing in building award-
 
 ---
 
+### 🛠️ Tech Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+  <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white" alt="YOLO"/>
+  <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" alt="ONNX"/>
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=flat-square&logo=raspberrypi&logoColor=white" alt="Raspberry Pi"/>
+  <img src="https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
+  <img src="https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white" alt="Arduino"/>
+  <img src="https://img.shields.io/badge/FreeRTOS-2C9F42?style=flat-square&logoColor=white" alt="FreeRTOS"/>
+  <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Cisco%20CCNA-1BA0D7?style=flat-square&logo=cisco&logoColor=white" alt="Cisco CCNA"/>
+</p>
+
+### ✨ Featured Projects
+
+*   <a href="https://www.linkedin.com/posts/seif-elsayed_graduationproject-ai-robotics-activity-7351456699083276288-WJs5" target="_blank">**𝐒𝐡𝐢𝐞𝐥𝐝: 𝐀𝐧 𝐑𝐞𝐚𝐥-𝐭𝐢𝐦𝐞 𝐀𝐈-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐍𝐨𝐧-𝐋𝐞𝐭𝐡𝐚𝐥 𝐃𝐞𝐟𝐞𝐧𝐬𝐞 𝐒𝐲𝐬𝐭𝐞𝐦**</a>
+    *   🏆 **Awarded 2nd Place (#2)** nationwide among 582 projects in the Egyptian Universities & Institutes Competition ([ITC EGYPT ADC 2025](https://www.facebook.com/itc2025adc)).
+    *   **Tech Stack:** `Python`, `YOLOv8`, `OpenCV`, `Raspberry Pi 5`, `ESP32`, `C++`, `Kotlin (Android)`.
+    *   An integrated defense system using AI... <a href="https://www.linkedin.com/posts/seif-elsayed_aeyaeraepaejabraepaedaefaeuaepaehaey-aelaeuaegaetaerabraelaetaeuaeyaer-activity-7364089800912625665-TX7R" target="_blank">See competition highlights</a>.
+
+*   <a href="https://www.linkedin.com/posts/seif-elsayed_graduationproject-rov-activity-7352497326470365184-i7MA" target="_blank">**𝐒𝐡𝐚𝐫𝐤𝐁𝐚𝐢𝐭**</a>
+    *   A custom-built Remotely Operated Vehicle (ROV) designed for underwater exploration and data collection tasks.
+
+*   <a href="https://www.linkedin.com/posts/seif-elsayed_two-is-not-enough-lets-drop-the-third-project-activity-7352547138003726336-dY0q" target="_blank">**𝐋𝐢𝐠𝐡𝐭𝐈𝐭𝐔𝐩**</a>
+    *   An IoT-based smart lighting system featuring customizable animations and remote control capabilities via a mobile app.
+
+---
+
 <details>
-<summary><h3>Technical Deep Dive & GitHub Stats</h3></summary>
+<summary><h3>🧠 Technical Deep Dive (full skills mindmap)</h3></summary>
   
 ---
   
@@ -125,7 +157,7 @@ mindmap
         - (Adaptability & Continuous Learning)
     Achievements
       Awards
-        - (2nd Place/586, ITC-EGYPT ADC 2025)
+        - (2nd Place/582, ITC-EGYPT ADC 2025)
       Certifications
         - (CCNA, ALX AiCE, Advanced Excel)
       Leadership
@@ -133,36 +165,29 @@ mindmap
 
 ```
   
----
-  
-### ✨ Featured Projects
-
-*   <a href="https://www.linkedin.com/posts/seif-elsayed_graduationproject-ai-robotics-activity-7351456699083276288-WJs5" target="_blank">**𝐒𝐡𝐢𝐞𝐥𝐝: 𝐀𝐧 𝐑𝐞𝐚𝐥-𝐭𝐢𝐦𝐞 𝐀𝐈-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐍𝐨𝐧-𝐋𝐞𝐭𝐡𝐚𝐥 𝐃𝐞𝐟𝐞𝐧𝐬𝐞 𝐒𝐲𝐬𝐭𝐞𝐦**</a>
-    *   🏆 **Awarded 2nd Place (#2)** nationwide among 582 projects in the Egyptian Universities & Institutes Competition ([ITC EGYPT ADC 2025](https://www.facebook.com/itc2025adc)).
-    *   **Tech Stack:** `Python`, `YOLOv8`, `OpenCV`, `Raspberry Pi 5`, `ESP32`, `C++`, `Kotlin (Android)`.
-    *   An integrated defense system using AI... <a href="https://www.linkedin.com/posts/seif-elsayed_aeyaeraepaejabraepaedaefaeuaepaehaey-aelaeuaegaetaerabraelaetaeuaeyaer-activity-7364089800912625665-TX7R" target="_blank">See competition highlights</a>.
-
-*   <a href="https://www.linkedin.com/posts/seif-elsayed_graduationproject-rov-activity-7352497326470365184-i7MA" target="_blank">**𝐒𝐡𝐚𝐫𝐤𝐁𝐚𝐢𝐭**</a>
-    *   A custom-built Remotely Operated Vehicle (ROV) designed for underwater exploration and data collection tasks.
-
-*   <a href="https://www.linkedin.com/posts/seif-elsayed_two-is-not-enough-lets-drop-the-third-project-activity-7352547138003726336-dY0q" target="_blank">**𝐋𝐢𝐠𝐡𝐭𝐈𝐭𝐔𝐩**</a>
-    *   An IoT-based smart lighting system featuring customizable animations and remote control capabilities via a mobile app.
-
----
-  
-### 📊 My GitHub Activity:
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=zSayf&show_icons=true&theme=dark" alt="Seif's GitHub Stats" width="400">
-  </a>
-</p>
-
 </details>
+
+---
+
+### 📊 GitHub Stats
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=zSayf&show_icons=true&hide_border=true&theme=github_dark">
+    <img src="https://github-readme-stats.vercel.app/api?username=zSayf&show_icons=true&hide_border=true" alt="Seif's GitHub Stats" height="165">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=zSayf&layout=compact&hide_border=true&theme=github_dark">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=zSayf&layout=compact&hide_border=true" alt="Seif's Top Languages" height="165">
+  </picture>
+</p>
 
 ---
 
 <!-- Snake animation with a cool title -->
 <div align="center">
   <h4>My GitHub Activity Snake 🐍</h4>
-  <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/dist/github-contribution-grid-snake.svg" alt="Seif's contribution snake animation">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zSayf/zSayf/main/dist/github-contribution-grid-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/dist/github-contribution-grid-snake.svg" alt="Seif's contribution snake animation">
+  </picture>
 </div>
