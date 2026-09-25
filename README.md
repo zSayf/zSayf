@@ -1,6 +1,6 @@
 <!-- Header Image -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/zSayf/zSayf/main/Assests/Header.png" alt="Seif Elsayed's Header"/>
+  <img src="assets/Header.png" alt="Seif Elsayed's Header"/>
 </p>
 
 Passionate Electronics & Communications Engineer specializing in building award-winning, intelligent systems that bridge the gap between hardware and software.
@@ -157,7 +157,7 @@ mindmap
         - (Adaptability & Continuous Learning)
     Achievements
       Awards
-        - (2nd Place/586, ITC-EGYPT ADC 2025)
+        - (2nd Place/582, ITC-EGYPT ADC 2025)
       Certifications
         - (CCNA, ALX AiCE, Advanced Excel)
       Leadership
